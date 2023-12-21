@@ -9,9 +9,11 @@
         android:id="@+id/name"
         android:layout_width="136dp"
         android:layout_height="26dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="72dp"
         android:text="Welcome {name}"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="72dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="417dp"
